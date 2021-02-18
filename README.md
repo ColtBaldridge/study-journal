@@ -6,3 +6,4 @@ While pgogramming, an idle corner of the brain sparks to life. The spart of insp
 ## Contents
 * [Data Structures](./data-structures/DATA-STRUCTURES.md)
 * [Algorithms](./algorithms/ALGORITHMS.md)
+* [Interfaces].(./interfaces/INTERFACES.md)
