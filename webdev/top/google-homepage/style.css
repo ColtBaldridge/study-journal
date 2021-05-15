@@ -1,0 +1,54 @@
+body, input, button{
+    font-family: "Roboto",arial,sans-serif;
+    font-size: 14px;
+    color: #222;
+}
+
+.global {
+    font-family: "Roboto",arial,sans-serif;
+    font-size: 14px;
+    color: #222;
+}
+
+.header{
+    background-color: #EEEEEE;
+    height: 60px;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.header-buttons {
+    margin: 0;
+}
+
+.Ne6nSd     {
+    /* background-color: #EEEEEE; */
+    display: flex;
+    align-items: center;
+    padding: 6px;
+}
+
+.n1xJcf {
+    height: 60px;
+}
+
+.o3j99 {
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+a.MV3Tnb:first-of-type{
+    margin-left: 15px;
+}
+
+a.MV3Tnb {
+    display: inline-block;
+    padding: 5px;
+    margin: 0 5px;
+    color: #222;
+}
+
+a {
+    text-decoration: none;
+}
