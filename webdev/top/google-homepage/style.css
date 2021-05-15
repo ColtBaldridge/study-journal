@@ -1,0 +1,29 @@
+body, input, button {
+    font-size: 14px;
+    font-family: "Roboto", arial, sans-serif;
+    color: #222;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper-head {
+    display: flex;
+}
+
+.wrapper-head div {
+    height: 60px;
+}
+
+.nav-left {
+    display: inline-block;
+    padding: 5px;
+    margin: 0 5px;
+    color: #222;
+}
+
+.top-menu {
+    display: inline-block;
+    flex-grow: 1;
+}
