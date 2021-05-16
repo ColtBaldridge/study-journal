@@ -49,32 +49,34 @@
     .navbar {
         display: flex;
         justify-content: flex-start;
+        flex-direction: row;
         background-color: rgb(50, 50, 50);
     }
 
     .navbar div {
         height: 60px;
-        flex-direction: row;
+        font-size: 18px;
         text-align: center;
-        margin: auto;
+        line-height: 60px;
+        margin: 0;
     }
 
     .navbar a {
         width: 90px;
-        line-height: 60px;
-        margin: auto;
         color: white;
         text-decoration: none;
     }
 
-    .navbar a:hover {
+    .navbar div:hover{
         background-color: gold;
         color: black;
         text-decoration: none;
     }
 
     .subnav {
-        flex: 1;
+        flex-grow: 1;
+        display: flex;
+        justify-content: flex-end;
     }
 </style>
 </head>
@@ -99,6 +101,14 @@
         <h1>Example 2</h1>
         <div class="navbar">
             <div><a href="#">About</a></div>
+            <div><a href="#">Events</a></div>
+            <div class="subnav">
+                <div>
+                    <a href="#">Login</a>
+                    <a href="#">Store</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
         </div>
     </div>
 </body>
