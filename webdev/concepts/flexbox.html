@@ -9,6 +9,7 @@
     body {
         font-family: 'Courier New', Courier, monospace;
         font-size: 14px;
+        background-color: #cfbb46;
     }
 
     h1 {
@@ -21,16 +22,16 @@
         border-bottom: 2px solid;
     }
 
-    .flex-container {
+    .container1 {
         display: flex;
         justify-content: center;
         background-color: dodgerblue;
     }
 
-    .flex-container div {
+    .container1 div {
         /*
         Apparently, this CSS rule applies to all the divs
-        within the parent flex-container.
+        within the parent container1.
         */
         background-color: #f1f1f1;
         width: 100px;
@@ -46,7 +47,7 @@
 <body>
     <div class="example">
         <h1>Example 1</h1>
-        <div class="flex-container">
+        <div class="container1">
             <div>One</div>
             <div>Two</div>
             <div>Three</div>
