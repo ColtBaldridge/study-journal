@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;    
+    font-family: sans-serif;
+}
+
+body {
+    margin-top: 35px;
+}
+
+h1 {
+    padding: 2px 0px;
+    color: black;
+    font-size: 24px;
+}
+
+#debug {
+    border: 1px solid red;
+}
+
+.buffer {
+    height: 50px;
+}
+
+.menu-container {
+    color: #fff;
+    background-color: #5995DA; /* Blue */
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    /* border: 1px solid #000; For debugging */
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.date {
+    margin-left: 20px;
+    align-self: center;
+}
+
+.links {
+    padding: 20px 12px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login {
+    margin-left: 20px;
+}
